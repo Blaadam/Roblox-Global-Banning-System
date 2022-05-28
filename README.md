@@ -5,7 +5,10 @@ The Roblox Global Banning System (RGBS) is a system developed by [blaadam](https
 ---
 
 ### How To Use:
-To use RGBS in your own game, insert the following code into a server script in ServerScriptService in your own game:
+To use RGBS in your own game, please follow the following steps:
+- Enable **HttpsService**
+- Enable LoadStringEnabled in **ServerScriptService**
+- Insert the following code into a server script in ServerScriptService in your own game:
 ```
 local urlToFind = "https://raw.githubusercontent.com/Blaadam/Roblox-Global-Banning-System/main/main.lua" -- **Ensure that this is the raw code**
 
